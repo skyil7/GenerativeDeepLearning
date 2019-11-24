@@ -4,6 +4,6 @@ from google.colab import drive
 def mount():
     auth.authenticate_user()
     drive.mount('/content/gdrive/')
-    baseDir = 'My Drive/colab/'
+    baseDir = '/content/gdrive/My Drive/Colab/'
 
     return baseDir
