@@ -101,8 +101,6 @@ class Autoencoder():
 
                 self.model = Model(model_input, model_output)
 
-                self.model.summary()
-
     def compile(self, learning_rate, verbose=1):
         self.learning_rate = learning_rate
 
